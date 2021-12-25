@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title> job application page</title>
+	</head>
+	<body>
+	<table>
+		<th>
+			<td>
+				<form>
+					<h2>Please fill the form to apply</h2>
+<fieldset><legend> <h4>Personal information</h4></legend></h2>
+					<label>postion applying for </label>
+					<br>
+					<input type="text" name="postion" id="postion" autofocus>
+					<br>
+					<label>Full name</label>
+					<br>
+					<input type="text" name="name" id="name">
+					<br>
+					<label>nationality</label>
+					<br>
+					<input type="text" name="nationality" id="nationality">
+					<br>
+					<label for="start">birthday date:</label>
+					<br>
+                 <input type="date" id="start" name="trip-start" min="1900-01-01" max="2021-23-12">
+                 <br>
+                 <label> Address</label>
+                 <br>
+                 <textarea textarea rows = "5" cols = "50" name = "description" required></textarea>
+                 <br>
+                 <label>phone number</label>
+                 <br>
+                 <input type="tel" name="phone" id="phone"  pattern ="[251][0-9]{9}" required placeholder="251-900-900">
+                 <br>
+                 <label>email</label>
+                 <br>
+                 <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"required>
+             </fieldset>
+             <fieldset>
+             	<legend><h4>Educational history and Qualifications</h4></legend>
+             	<p>please enter your educational history and qualfications here using 600 words</p>
+                 <br>
+                 <textarea textarea rows = "8" cols = "50" name = "description" required maxlengt="600"></textarea></fieldset>
+                 <fieldset>
+                 	<legend><h4>Work experience</h4></legend>
+                 	<p>could you say something your employment and trainning </p>
+                 	<textarea textarea rows = "5" cols = "50" name = "description" required></textarea>
+                 	<br>
+                 	<label>Number of year of experience </label>
+                 	<select>
+                 		<option value="0">0</option>
+                 		<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+                 	</select>
+                 	<br>
+                 	<label> Personal statement</label>
+                 	<br>
+                 	<textarea textarea rows = "9" cols = "50" name = "description" required placeholder="tell us about your self"></textarea>
+                 </fieldset>
+
+                 <fieldset>
+<legend><h2>Referee 1</h2></legend>
+   <lable for="Fname" >Referee Name<sup>*</sup>&nbsp;</lable> 
+ <input type="text"  placeholder="Referee Name" required><br><br>
+ 
+  <lable for="Lname">Relationship<sup>*</sup>&nbsp;</lable> 
+ <input type="text"  placeholder="Relationship" required><br><br>
+ <lable for="Lname">Occupation<sup>*</sup>&nbsp;</lable> 
+ <input type="text"  placeholder="Occupation" required><br><br>
+ 
+ <lable for="email">Referee Email<sup>*</sup>&nbsp;</lable> 
+ <input type="email"  placeholder="Email" required><br><br>
+    
+  <lable for="phone">Referee Telephone<sup>*</sup>&nbsp;</lable> 
+ <input type="tel"  placeholder="Telephone" required><br><br>
+ <label for="text" required>Referee Address<sup>*</sup></label>
+  <textarea id= "text" name="text" rows="4" cols="30" placeholder="Address"></textarea><br><br>
+  <br><br>
+</fieldset>
+</td></th>
+<th><td valign="bottom">
+<fieldset>
+  <legend><h2>Referre 2</h2></legend>
+  <lable for="Fname" >Referee Name<sup>*</sup>&nbsp;</lable> 
+  <input type="text"  placeholder="Referee Name" required><br><br>
+  
+   <lable for="Lname">Relationship<sup>*</sup>&nbsp;</lable> 
+  <input type="text"  placeholder="Relationship" required><br><br>
+  <lable for="Lname">Occupation<sup>*</sup>&nbsp;</lable> 
+  <input type="text"  placeholder="Occupation" required><br><br>
+  
+  <lable for="email">Referee Email<sup>*</sup>&nbsp;</lable> 
+  <input type="email"  placeholder="Email" required><br><br>
+     
+   <lable for="phone">Referee Telephone<sup>*</sup>&nbsp;</lable> 
+  <input type="tel"  placeholder="Telephone" required><br><br>
+  <label for="text" required>Referee Address<sup>*</sup></label>
+   <textarea id= "text" name="text" rows="4" cols="30" placeholder="Address"></textarea><br><br>
+  
+  </td></th></fieldset>
+</table>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+
+</fieldset>
+
+				</form>
+		</td>
+		</th>
+	</table>
+	</body>
+	</html>

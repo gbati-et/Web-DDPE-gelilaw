@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feed back page</title>
+</head>
+<body>
+	<h1> Feed Back Form</h1>
+	<form>
+		<label>Name:</label>
+		<input type="name" name="name" id="name" placeholder="fullname">
+		<br>
+		<label>email</label>
+                 <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"placeholder = " email">
+                 <p>Please check all the emotions that apply to you:</p>
+                 <ul>
+                 	<li>
+                 	<label>Angry</label> 
+                 	<input type="checkbox" name="checkbox1" id="checkbox1">
+                 </li>
+                 	<li>
+                 	<label>Sad</label>
+                 	<input type="checkbox" name="checkbox2" id="checkbox2">
+                 	
+                 </li>
+                 <li>
+                 	<label>Happy</label>
+                 	<input type="checkbox" name="checkbox3" id="checkbox3">
+                 </li>
+                 	
+                 	<li>
+                 	<label>Ambivalent</label>
+                 	<input type="checkbox" name="checkbox4" id="checkbox4">
+                 	
+                 	</li>
+                 </ul>
+                 <p>How satisfied were you with our service?</p>
+                 <ul>
+                 	<li>
+                 		<label>Very satisfied</label>
+                 	<input type="radio" name="radio" id="radio1">
+                 	</li>
+                 	<li>
+                 		<label> satisfied</label>
+                 	<input type="radio" name="radio" id="radio2">
+                 	</li>
+                 	<li>
+                 		<label>Didn't care</label>
+                 	<input type="radio" name="radio" id="radio3">
+                 	</li>
+                 	<li>
+                 		<label>Dissatisfied</label>
+                 	<input type="radio" name="radio" id="radio4">
+                 	</li>
+                 	<li>
+                 		<label>Very dissatisfied</label>
+                 	<input type="radio" name="radio" id="radio5">
+                 	</li>
+                 </ul>
+                 <label>Further comments:</label>
+                 <textarea width = "300%" height ="500%"></textarea>
+                 <br>
+                 <input type="submit" >
+
+
+	</form>
+
+</body>
+</html>
